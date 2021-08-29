@@ -1,4 +1,3 @@
-
 export class Account {
 
   private _branchNumber: number;
@@ -26,7 +25,7 @@ export class Account {
     this._repaymentStatus = repaymentStatus;
   }
 
-  // 支店番号のgetter/setter
+  // 支店番号のアクセサ
   get branchNumber(): number {
     return this._branchNumber;
   }
@@ -34,7 +33,7 @@ export class Account {
     this._branchNumber = branchNumber;
   }
 
-  // 口座番号のgetter/setter
+  // 口座番号のアクセサ
   get accountNumber(): string {
     return this._accountNumber;
   }
@@ -42,7 +41,7 @@ export class Account {
     this._accountNumber = accountNumber;
   }
 
-  // 口座種別のgetter/setter
+  // 口座種別のアクセサ
   get accountType(): string {
     return this._accountType;
   }
@@ -50,7 +49,7 @@ export class Account {
     this._accountType = accountType;
   }
 
-  // 口座名義人
+  // 口座名義人のアクセサ
   get accountHolder(): string {
     return this._accountHolder;
   }
@@ -58,7 +57,7 @@ export class Account {
     this._accountHolder = accountHolder;
   }
 
-  // 預金額
+  // 預金額のアクセサ
   get deposit(): number {
     return this._deposit;
   }
@@ -66,7 +65,7 @@ export class Account {
     this._deposit = deposit;
   }
 
-  // ローン金額
+  // ローン金額のアクセサ
   get loan(): number {
     return this._loan;
   }
@@ -74,7 +73,7 @@ export class Account {
     this._loan = loan;
   }
 
-  // 返済ステータス
+  // 返済ステータスのアクセサ
   get repaymentStatus(): number {
     return this._repaymentStatus;
   }
