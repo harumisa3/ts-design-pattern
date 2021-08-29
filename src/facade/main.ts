@@ -13,16 +13,16 @@ class Main {
     BankSystem.accountMap["0002"] = tanaka;
 
     // ==========================
-    // 山田太郎のローンを組んでみる
+    // アカウント情報のセット
     // ==========================
     let yamadaAccount: string = "0001";
-    let yamadaResult: number = BankManager.takeLoan(yamadaAccount, 100000);
-    console.log("");
-    // ==========================
-    // 田中角栄のローンを組んでみる
-    // ==========================
     let tanakaAccount: string = "0002";
-    let tanakaResult: number = BankManager.takeLoan(tanakaAccount, 100000);
+
+    // ==========================
+    // ローンを組んでみる
+    // ==========================
+    BankManager.takeLoan(yamadaAccount, 100000);
+    BankManager.takeLoan(tanakaAccount, 100000);
   }
 }
 
