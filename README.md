@@ -11,4 +11,8 @@ https://qiita.com/zackey2/items/8c8cfdc1726f4b0c5c58
 ## 4. FactoryMethod
 https://qiita.com/zackey2/items/eba421510cee6a7fbb60
 
+## 5. Singleton
+https://qiita.com/zackey2/items/eba421510cee6a7fbb60
+
+
 https://typescript-jp.gitbook.io/deep-dive/styleguide#filename
